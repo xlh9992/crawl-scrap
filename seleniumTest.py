@@ -1,6 +1,6 @@
 from selenium import webdriver
 user_agent = 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.66 Safari/537.36'
-pjs_path = 'node_modules/phantomjs/bin/phantomjs'
+pjs_path = 'phantomjs'
 dcap = {
     "phantomjs.page.settings.userAgent" : user_agent,
     'marionette' : True
